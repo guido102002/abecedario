@@ -1,17 +1,16 @@
 /* ===== BASE ===== */
 * {
   box-sizing: border-box;
-  margin: 0; /* Elimina los márgenes por defecto del navegador */
-  padding: 0; /* Elimina los espacios internos por defecto del navegador */
+  margin: 0; 
+  padding: 0; 
 }
 
 body {
-  font-family: "Segoe UI", Arial, sans-serif; /* Tipografía para toda la página. Viene preinstalada en los dispositivos con sistemas operativos de Microsoft Windows*/
-  background-color: #fff8e7;
-  color: #333; /* Color del texto por defecto */
+  font-family: "Segoe UI", Arial, sans-serif; 
+  color: #333; 
 }
 
-/* ===== NAVBAR ===== */
+
 .navbar {
   background-color: #6c5ce7;
   color: white;
@@ -62,18 +61,16 @@ body {
   transform: scale(1.05);
 }
 
-/* ===== GALERÍA ===== */
 .galeria {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px 20px; /* 24px entre filas, 20px entre columnas */
+  gap: 24px 20px; 
   justify-content: center;
-  max-width: 1280px; /* Limita el ancho para que las filas queden parejas (7 por fila) */
-  margin: 0 auto; /* Centra la galería en la página */
+  max-width: 1280px;
+  margin: 0 auto; 
   padding: 24px 16px 56px;
 }
 
-/* ===== CARD Y EFECTO FLIP ===== */
 .card {
   position: relative;
   width: 160px;
@@ -131,12 +128,11 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: 8px;
-  padding: 0 6px; /* Evita que palabras largas toquen el borde */
+  padding: 0 6px; 
   overflow-wrap: anywhere;
   color: #2d3436;
 }
 
-/* Cuando la card tiene .volteada, las caras se intercambian */
 .card.volteada .card-frente {
   transform: rotateY(180deg);
 }
@@ -173,7 +169,6 @@ body {
   padding: 6px 0;
 }
 
-/* ===== CLASE DEL FILTRO (SIEMPRE AL FINAL) ===== */
 .oculta {
   display: none;
 }
