@@ -1,14 +1,14 @@
 /* ===== BASE ===== */
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0; /* Elimina los márgenes por defecto del navegador */
+  padding: 0; /* Elimina los espacios internos por defecto del navegador */
 }
 
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif; /* Tipografía para toda la página. Viene preinstalada en los dispositivos con sistemas operativos de Microsoft Windows*/
   background-color: #fff8e7;
-  color: #333;
+  color: #333; /* Color del texto por defecto */
 }
 
 /* ===== NAVBAR ===== */
