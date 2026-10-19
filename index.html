@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABCchallenge · Aprende el abecedario</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- RF01: NAVBAR -->
+  <nav class="navbar">
+    <h1>ABCchallenge</h1>
+    <p>Letras vistas: <span id="contador">0</span> / 27</p>
+  </nav>
+
+  <main>
+
+    <!-- RF05: BOTONES DE FILTRO -->
+    <div class="botones">
+      <button type="button" data-filtro="vocal">Vocales</button>
+      <button type="button" data-filtro="todas">Todas</button>
+    </div>
+
+    <!-- RF02: GALERÍA DE 27 CARDS -->
+    <section class="galeria">
+
+      <!-- BLOQUE A-F -->
+      <div class="card" data-tipo="vocal">
+        <div class="card-frente"><h2>A</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/avocado?lock=1" alt="Aguacate">
+          <p>Aguacate</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>B</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/whale?lock=2" alt="Ballena">
+          <p>Ballena</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>C</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/house?lock=3" alt="Casa">
+          <p>Casa</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>D</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/dolphin?lock=4" alt="Delfín">
+          <p>Delfín</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="vocal">
+        <div class="card-frente"><h2>E</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/elephant?lock=5" alt="Elefante">
+          <p>Elefante</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>F</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/strawberry?lock=6" alt="Fresa">
+          <p>Fresa</p>
+        </div>
+      </div>
+
+      <!-- BLOQUE G-L -->
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>G</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/cat?lock=7" alt="Gato">
+          <p>Gato</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>H</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/icecream?lock=8" alt="Helado">
+          <p>Helado</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="vocal">
+        <div class="card-frente"><h2>I</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/iguana?lock=9" alt="Iguana">
+          <p>Iguana</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>J</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/giraffe?lock=10" alt="Jirafa">
+          <p>Jirafa</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>K</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/kiwi?lock=11" alt="Kiwi">
+          <p>Kiwi</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>L</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/lion?lock=12" alt="León">
+          <p>León</p>
+        </div>
+      </div>
+
+      <!-- BLOQUE M-P -->
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>M</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/apple?lock=13" alt="Manzana">
+          <p>Manzana</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>N</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/orange?lock=14" alt="Naranja">
+          <p>Naranja</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>Ñ</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/rhea,bird?lock=15" alt="Ñandú">
+          <p>Ñandú</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="vocal">
+        <div class="card-frente"><h2>O</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/bear?lock=16" alt="Oso">
+          <p>Oso</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>P</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/dog?lock=17" alt="Perro">
+          <p>Perro</p>
+        </div>
+      </div>
+
+      <!-- BLOQUE Q-U -->
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>Q</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/cheese?lock=18" alt="Queso">
+          <p>Queso</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>R</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/mouse?lock=19" alt="Ratón">
+          <p>Ratón</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>S</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/sun?lock=20" alt="Sol">
+          <p>Sol</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>T</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/tiger?lock=21" alt="Tigre">
+          <p>Tigre</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="vocal">
+        <div class="card-frente"><h2>U</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/grapes?lock=22" alt="Uvas">
+          <p>Uvas</p>
+        </div>
+      </div>
+
+      <!-- BLOQUE V-Z -->
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>V</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/cow?lock=23" alt="Vaca">
+          <p>Vaca</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>W</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/waffle?lock=24" alt="Waffle">
+          <p>Waffle</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>X</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/xylophone?lock=25" alt="Xilófono">
+          <p>Xilófono</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>Y</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/yacht?lock=26" alt="Yate">
+          <p>Yate</p>
+        </div>
+      </div>
+
+      <div class="card" data-tipo="consonante">
+        <div class="card-frente"><h2>Z</h2></div>
+        <div class="card-dorso">
+          <img src="https://loremflickr.com/300/200/fox?lock=27" alt="Zorro">
+          <p>Zorro</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- RF06: SECCIÓN DEL EQUIPO (reemplaza por los nombres reales) -->
+    <section class="equipo">
+      <h2>El equipo de rescate</h2>
+      <ul>
+        <li>Nombre Apellido 1 (Líder)</li>
+        <li>Nombre Apellido 2</li>
+        <li>Nombre Apellido 3</li>
+        <li>Nombre Apellido 4</li>
+        <li>Nombre Apellido 5</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- El script va al final, cuando ya existen todas las cards -->
+  <script src="app.js"></script>
+</body>
+</html>
