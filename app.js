@@ -3,10 +3,10 @@ const cards = document.querySelectorAll(".card");
 const botones = document.querySelectorAll(".botones button");
 const contador = document.querySelector("#contador");
 
-// ===== ESTADO =====
+
 let letrasVistas = 0;
 
-// ===== VOLTEAR =====
+// voltear
 function voltear(card) {
   // Pone la clase "volteada" si no está, y la quita si está
   card.classList.toggle("volteada");
@@ -19,7 +19,7 @@ function voltear(card) {
   }
 }
 
-// ===== FILTRAR =====
+// filtrar
 function filtrar(tipo) {
   for (const card of cards) {
     if (tipo === "todas" || card.dataset.tipo === tipo) {
